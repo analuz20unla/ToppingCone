@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Topping Cone</title>
+        <link rel="stylesheet" type="text/css" href="estilos.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="index.html" target="_self">
+                    <img src="img/inicio/logo.png" width="220px" alt="Logo de Topping Cone" class="logonav"/>
+                </a>
+                <ul>
+                    <a href="menu.html" target="_self">
+                    <li>
+                        <h4>
+                            MENU
+                        </h4>
+                    </li>
+                    </a>
+                    <a href="about-us.html" target="_self">
+                        <li>
+                            <h4>
+                                ABOUT US
+                            </h4>
+                        </li>
+                    </a>
+                    <a href="cattering.html" target="_self">
+                        <li>
+                            <h4>
+                                CATTERING
+                            </h4>
+                        </li>
+                    </a>
+                    <a href="contact.html" target="_self">
+                        <li>
+                            <h4>
+                                CONTACT
+                            </h4>
+                        </li>
+                    </a>
+                </ul>
+            </nav>
+            <div class="topnav" id="mobile">
+                <a href="index.html" class="active"></a>
+                <div id="myLinks">
+                    <a href="index.html" target="_self">Inicio</a>
+                    <a href="sobre-mi.html" target="_self">Sobre mí</a>
+                    <a href="trabajos.html" target="_self">Trabajos</a>
+                    <a href="contacto.html" target="_self">Contacto</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </header>
+        <main>
+            <section class="bienv">
+                <div>
+                    <h1>
+                        Diseño Estratégico
+                    </h1>
+                    <p>
+                        La diferencia entre que te elijan o te ignoren
+                    </p>
+                </div>
+            </section>
+            <section class="introsobremi">
+                <img src="img/inicio/yo-1.png" width="478px" height="362px" alt="foto de ana"/>
+                <div>
+                    <h3>
+                        Me presento
+                    </h3>
+                    <p>
+                        Mi nombre es Ana, y como diseñadora gráfica me dedico a crear piezas visuales que transforman ideas en historias únicas.
+                    </p>
+                    <a href="sobre-mi.html" class="botonborde">Conocéme</a>
+                </div> 
+            </section>
+            <section class="introtrab">
+                <h3>
+                    Trabajos destacados
+                </h3>
+                <div>
+                    <img src="img/inicio/cuadrostrab-izq.png" height="350px" alt="logo de iglesia"/>
+                    <img src="img/inicio/cuadrostrab-centro.png" class="img-central" height="350px" alt="identidad de techne"/>
+                    <img src="img/inicio/cuadrostrab-der.png" height="350px" alt="logo de coco"/>
+                </div>
+                <p>
+                    Conocé todas las marcas que ya florecieron junto a mi
+                </p>
+                <a href="trabajos.html" class="botonrelleno">Ver más</a>
+            </section>
+            <section class="hablemos">
+                <div>
+                    <h3>
+                        ¿Querés que tu marca florezca? 
+                    </h3>
+                    <p>
+                        Charlemos de tu proyecto y hagámoslo crecer ¡hasta florecer!
+                    </p>
+                    <a href="contacto.html" target="_self" class="botonrelleno">Enviar mensaje</a>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>
+                Desarrollado por Una Pareja Gráfica Todos los derechos reservados
+            </p>
+            <div>
+                <img src="img/faceicon.svg" width="28px" height="33px"/>
+                <img src="img/behanceicon.svg" width="35px" height="35px"/>
+                <img src="img/igicon.svg" width="35px" height="35px"/>
+                <img src="img/wppicon.svg" width="35px" height="35px"/>
+            </div>
+        </footer>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+            </script>
+    </body>
+</html>
