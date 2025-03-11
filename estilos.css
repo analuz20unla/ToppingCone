@@ -69,26 +69,27 @@ li{
 }
 
 h1, h2, h3{
-    font-family: "Montserrat", serif;
     font-weight: 400;
 }
 
 .bienv{
-    padding: 15% 0% 350px 11px;
+    padding: 150px 0% 350px 11px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    align-content: stretch;
-    background-position-x: center;
-    background-position-y: top;
+    align-content: center;
     max-height: 1039px;
+    justify-content: center;
 }
 
 h1{
     font-size: 7.5rem;
     width: 406px;
     line-height: 71%;
-    color: #FCFF2E;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
 }
 
 .bienv div {
@@ -98,7 +99,14 @@ h1{
 }
 
 .bienv p{
-    padding-left: 5px;
+    font-size: 1.9rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120.24%;
+}
+
+.bienv img{
+    padding-right: 80px;
 }
 
 h3{
