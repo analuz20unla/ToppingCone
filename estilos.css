@@ -22,14 +22,14 @@ html{
 body{
     color: #8F3A13;
     font-family: "Montserrat", sans-serif;
-    font-size: 1rem;
+    font-size: 0.9rem;
     background: #BAE2DF;
     font-weight: 400;
     font-style: normal;
 }
 
 p{
-    line-height: 2.7rem;
+    line-height: 1.3rem;
 }
 
 header{
@@ -132,38 +132,56 @@ h3{
 
 .introsobremi{
     display: flex;
+    flex-direction: row-reverse;
     justify-content: center;
-    margin-bottom: 146px;
+    padding: 93px 0px;
+    background-color: #8F3A13;
+    gap: 71px;
 }
 
 .introsobremi div{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    max-width: 340px;
+    max-width: 369px;
     gap: 5px;
     padding-left: 40px;
-    justify-content: center
+    justify-content: center;
+    color: #BAE2DF;
 }
 
-.introtrab{
-    padding-top: 81px;
-    justify-items: center;
+.introsobremi h3{
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+
+.introsobremi2{
+    display: flex;
+    justify-content: center;
+    padding: 93px 0px;
+    background-color: #BAE2DF;
+    gap: 71px;
+}
+
+.introsobremi2 div{
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    align-items: center;
-    padding-bottom: 100px;
-    background-color: #D5DED9;
-    border-top: 2px solid #98605E;
+    align-items: flex-start;
+    max-width: 369px;
+    gap: 5px;
+    padding-left: 40px;
+    justify-content: center;
+    color: #8F3A13;
 }
 
-.introtrab a{
-    color: #D5DED9;
+.introsobremi2 h3{
+    padding-bottom: 20px;
+    font-weight: 600;
+    text-align: left;
 }
 
-.introtrab p{
-    padding-bottom: 11px;
+.introsobremi2 p{
+    padding-bottom: 30px;
 }
 
 .botonrelleno{
@@ -183,7 +201,7 @@ h3{
 }
 
 footer{
-    border-top: 2px solid #ffffff;
+    background-color: #8F3A13;
     display: flex;
     justify-content: space-around;
     height: 90px;
@@ -191,9 +209,10 @@ footer{
 }
 
 footer p{
-    width: 280px;
-    font-size: 1.3rem;
-    line-height: 1.8rem;
+    width: 220px;
+    font-size: 0.6rem;
+    line-height: 0.7rem;
+    color: #BAE2DF;
 }
 
 footer div{
@@ -224,7 +243,10 @@ h4{
 }
 
 .sobremi p{
-    line-height: 1.5rem;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
 }
 
 .grid-container{
